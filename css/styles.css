@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 38px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+}
+
+nav > button {
+    background: none;
+    padding: 17px 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+}
+
+.header {
+    height: 652px;
+    text-align: center;
+    background-color: rgba(13, 19, 33, 0.1);
+}
+
+.webdev {
+    height: 1393px;
+    margin: 74px 148px 45px;
+    background-color: rgba(13, 19, 33, 0.1);
+    border-radius: 16px;
+}
+
+.inspiration {
+    height: 775px;
+    margin: 45px 148px 51px;
+    background-color: rgba(13, 19, 33, 0.1);
+}
+
+.target {
+    height: 1437px;
+    margin: 100px 150px 49px;
+    background-color: rgba(13, 19, 33, 0.1);
+}
+
+.support {
+    height: 313px;
+    margin: 0px 150px 80px;
+    background-color: rgba(13, 19, 33, 0.1);
+}
+
+footer {
+    padding: 32px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+footer > h1 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+footer > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer > ul > li {
+    padding-left: 24px;
+    list-style: none;
+}
