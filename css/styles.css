@@ -21,6 +21,7 @@ nav > a {
 
 nav > button {
     background: none;
+    cursor: pointer;
     padding: 17px 24px;
     border: 1px solid black;
     border-radius: 5px;
@@ -28,10 +29,34 @@ nav > button {
     font-weight: 600;
 }
 
-.header {
-    height: 652px;
+.hero {
+    padding: 26px 221px 45px;
     text-align: center;
-    background-color: rgba(13, 19, 33, 0.1);
+    background: url("../assets/Hero-bg.png");
+}
+
+.text {
+    text-align: center;
+    margin: 32px 0;
+    font-family: "Azeret Mono", monospace;
+}
+
+.text > h1 {
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+
+.text > p {
+    font-weight: 400;
+}
+
+.hero > button {
+    background: rgb(13, 19, 33);
+    color: white;
+    padding: 21px 24px;
+    border-radius: 8px;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 600;
 }
 
 .webdev {
