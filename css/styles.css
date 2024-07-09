@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+.font-1 {
+    font-size: 1.5rem;
+}
+
+.font-2 {
+    font-size: 1.75rem;
+}
+
+.font-3 {
+    font-size: 2rem;
+}
+
+.font-4 {
+    font-size: 3rem;
+}
+
+.px-144 {
+    padding: 0 144px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -50,9 +70,12 @@ nav > button {
     font-weight: 400;
 }
 
-.hero > button {
+.hero > a {
+    display: inline-block;
+    text-decoration: none;
     background: rgb(13, 19, 33);
     color: white;
+    cursor: pointer;
     padding: 21px 24px;
     border-radius: 8px;
     font-family: 'Azeret Mono', monospace;
@@ -62,14 +85,27 @@ nav > button {
 .webdev {
     height: 1393px;
     margin: 74px 148px 45px;
-    background-color: rgba(13, 19, 33, 0.1);
+    background: rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
 
 .inspiration {
-    height: 775px;
     margin: 45px 148px 51px;
-    background-color: rgba(13, 19, 33, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.video > iframe {
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
 }
 
 .target {
@@ -79,9 +115,54 @@ nav > button {
 }
 
 .support {
-    height: 313px;
     margin: 0px 150px 80px;
-    background-color: rgba(13, 19, 33, 0.1);
+    padding: 64px 48px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url('../assets/handshake.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    color: white;
+}
+
+.support > h1 {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.support > p {
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suggest {
+    border: none;
+    margin-right: 10px;
+    padding-left: 20px;
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+}
+
+.suggest::-webkit-input-placeholder {
+    font-family: "Azeret Mono", monospace;
+}
+
+.submit {
+    border: none;
+    background: white;
+    font-size: 1.25rem;
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
 }
 
 footer {
