@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Reusable Classes start */
+/* Texts */
 .font-1 {
     font-size: 1.5rem; /* 24 pixel (https://nekocalc.com/rem-to-px-converter) */
 }
@@ -16,6 +18,11 @@
     font-size: 3rem; /* 48 pixel (https://nekocalc.com/rem-to-px-converter) */
 }
 
+.text-center {
+    text-align: center;
+}
+
+/* Images */
 .logo {
     margin-right: 24px;
     width: 110px;
@@ -27,6 +34,7 @@
     height: 240px;
 }
 
+/* Paddings and Margins */
 .p-48 {
     padding: 48px;
 }
@@ -59,15 +67,12 @@
     margin-right: 24px;
 }
 
-.text-center {
-    text-align: center;
-}
-
 .border-1 {
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
 }
 
+/* Flexbox */
 .flex {
     display: flex;
 }
@@ -79,6 +84,7 @@
 .justify-evenly {
     justify-content: space-evenly;
 }
+/* Universal Classes end */
 
 * {
     margin: 0;
